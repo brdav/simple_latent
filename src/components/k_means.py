@@ -40,7 +40,7 @@ class KMeans:
             if np.allclose(mu_prev, self.mu):
                 break
 
-    def assign(self, X):
+    def transform(self, X):
         """
         Calculate closest cluster center index.
 
